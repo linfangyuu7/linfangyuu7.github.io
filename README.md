@@ -17,5 +17,5 @@ Quoted text is indented with a vertical line on the left and displayed using gra
 
 # Color using LaTEX
 $\color{red}{Your \space text \space here}$
-
+$\color{red}{\text{Your text here}}$
 **Note**: You must use \space because LaTeX ignores standard spaces. 
