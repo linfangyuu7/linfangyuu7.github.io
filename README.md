@@ -20,6 +20,25 @@ You can create an inline link by wrapping link text in brackets [ ], and then wr
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
+## Section links
+You can link directly to any section that has a heading. To view the automatically generated anchor in a rendered file, hover over the section heading to expose the  icon and click the icon to display the anchor in your browser.
+
+The code block below demonstrates the basic rules used to generate anchors from headings in rendered content.
+'''
+# Example headings
+
+## Sample Section
+
+## This'll be a _Helpful_ Section About the Greek Letter Θ!
+A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+
+# Links to the example headings above
+
+Link to the sample section: [Link Text](#sample-section).
+
+Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+'''
+
 # Color using LaTEX
 $\color{red}{\text{Your text here}}$
 **Note**: You must use \text because by default everything is a math symbol in LaTeX. 
