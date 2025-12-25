@@ -25,21 +25,31 @@ You can link directly to any section that has a heading. To view the automatical
 
 The code block below demonstrates the basic rules used to generate anchors from headings in rendered content.
 ```
-# Example headings
-
 ## Sample Section
 Test 1
 
-## This'll be a Helpful Section About the Greek Letter Θ!
-A heading containing characters UTF-8 character.
-
-# Links to the example headings above
-
 Link to the sample section: [Link Text](#sample-section).
 
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
 ```
 
+## Custom anchors
+You can use standard HTML anchor tags (`<a name="unique-anchor-name"></a>`) to create navigation anchor points for any location in the document. To avoid ambiguous references, use a unique naming scheme for anchor tags, such as adding a prefix to the name attribute value.
+
+You can link to a custom anchor using the value of the name attribute you gave the anchor. The syntax is exactly the same as when you link to an anchor that is automatically generated for a heading.
+
+For example:
+```
+# Section Heading
+
+Some body text of this section.
+
+<a name="my-custom-anchor-point"></a>
+Some text I want to provide a direct link to, but which doesn't have its own heading.
+
+(… more content…)
+
+[A link to that custom anchor](#my-custom-anchor-point)
+```
 
 # Color using LaTEX
 $\color{red}{\text{Your text here}}$
