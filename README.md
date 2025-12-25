@@ -6,12 +6,7 @@ To create a heading, add one to six # symbols before your heading text. The numb
 ### A third-level heading
 ```
 # Line breaks
-```
-This example
-Will span two lines
-```
-
-However, if you are writing in an .md file, the example above would render on one line without a line break. To create a line break in an .md file, you will need to include one of the following:
+To create a line break in an .md file, you will need to include one of the following:
 
 1. Include two spaces at the end of the first line.
 ```
@@ -34,9 +29,8 @@ Will have a blank line separating both lines
 # Quoting text
 You can quote text with a >.
 
-Text that is not a quote
-
 `> Text that is a quote`
+
 > Text that is a quote
 
 
