@@ -15,7 +15,7 @@ Text that is not a quote
 
 Quoted text is indented with a vertical line on the left and displayed using gray type.
 
-# Color
-<span style="color:red">This text is red.</span>
-<font color="green">This text is green.</font>
+# Color using LaTEX
 $\color{red}{Your \space text \space here}$
+
+**Note**: You must use \space because LaTeX ignores standard spaces. 
