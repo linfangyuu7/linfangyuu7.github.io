@@ -28,15 +28,17 @@ The code block below demonstrates the basic rules used to generate anchors from 
 # Example headings
 
 ## Sample Section
+Test 1
 
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+## This'll be a Helpful Section About the Greek Letter Θ!
+A heading containing characters UTF-8 character.
 
 # Links to the example headings above
 
 Link to the sample section: [Link Text](#sample-section).
 
 Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+
 '''
 
 # Color using LaTEX
