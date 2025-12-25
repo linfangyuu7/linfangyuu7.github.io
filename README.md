@@ -15,7 +15,11 @@ Text that is not a quote
 
 Quoted text is indented with a vertical line on the left and displayed using gray type.
 
+# Links
+You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
+
+This site was built using [GitHub Pages](https://pages.github.com/).
+
 # Color using LaTEX
-$\color{red}{Your \space text \space here}$
 $\color{red}{\text{Your text here}}$
-**Note**: You must use \space because LaTeX ignores standard spaces. 
+**Note**: You must use \text because by default everything is a math symbol in LaTeX. 
