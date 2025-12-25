@@ -15,10 +15,5 @@ Text that is not a quote
 
 Quoted text is indented with a vertical line on the left and displayed using gray type.
 
-# Supported color models
-Yu can call out colors within a sentence by using backticks. A supported color model within backticks will display a visualization of the color.
-
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-
-Screenshot of rendered GitHub Markdown showing how HEX values within backticks create small circles of color, here white and then black.
-
+# Color
+<span style="color:red">This text is red.</span>
