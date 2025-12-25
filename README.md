@@ -6,7 +6,8 @@ To create a heading, add one to six # symbols before your heading text. The numb
 ### A third-level heading
 
 # Line breaks
-```This example
+```
+This example
 Will span two lines
 ```
 
@@ -65,6 +66,22 @@ Test 1
 Link to the sample section: [Link Text](#sample-section).
 
 ```
+
+## Relative links
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+
+A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
+
+## Images
+You can display an image by adding ! and wrapping the alt text in [ ]. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses ().
+```
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+```
+When you want to display an image that is in your repository, use relative links instead of absolute links.
+
 
 ## Custom anchors
 You can use standard HTML anchor tags (`<a name="unique-anchor-name"></a>`) to create navigation anchor points for any location in the document. To avoid ambiguous references, use a unique naming scheme for anchor tags, such as adding a prefix to the name attribute value.
