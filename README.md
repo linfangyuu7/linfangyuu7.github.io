@@ -17,3 +17,4 @@ Quoted text is indented with a vertical line on the left and displayed using gra
 
 # Color
 <span style="color:red">This text is red.</span>
+<font color="green">This text is green.</font>
