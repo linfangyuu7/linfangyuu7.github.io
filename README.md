@@ -1,10 +1,10 @@
 # Headings  
 To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the hierarchy level and typeface size of the heading.
-
+```
 # A first-level heading
 ## A second-level heading
 ### A third-level heading
-
+```
 # Line breaks
 ```
 This example
@@ -36,6 +36,7 @@ You can quote text with a >.
 
 Text that is not a quote
 
+`> Text that is a quote`
 > Text that is a quote
 
 
