@@ -47,6 +47,8 @@ Use `git status` to list all new or modified files that haven't yet been committ
 
 # Links
 You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
+Example:
+`This site was built using [GitHub Pages](https://pages.github.com/).`
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
