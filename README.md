@@ -24,7 +24,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 You can link directly to any section that has a heading. To view the automatically generated anchor in a rendered file, hover over the section heading to expose the  icon and click the icon to display the anchor in your browser.
 
 The code block below demonstrates the basic rules used to generate anchors from headings in rendered content.
-'''
+```
 # Example headings
 
 ## Sample Section
@@ -38,8 +38,8 @@ A heading containing characters UTF-8 character.
 Link to the sample section: [Link Text](#sample-section).
 
 Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+```
 
-'''
 
 # Color using LaTEX
 $\color{red}{\text{Your text here}}$
