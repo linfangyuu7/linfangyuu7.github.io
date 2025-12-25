@@ -15,6 +15,15 @@ Text that is not a quote
 
 Quoted text is indented with a vertical line on the left and displayed using gray type.
 
+# Quoting code
+You can call out code or a command by wrapping it within single backticks.  
+
+Example: 
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+```
+Use `git status` to list all new or modified files that haven't yet been committed.
+
 # Links
 You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
 
