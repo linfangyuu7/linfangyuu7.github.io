@@ -5,6 +5,31 @@ To create a heading, add one to six # symbols before your heading text. The numb
 ## A second-level heading
 ### A third-level heading
 
+# Line breaks
+```This example
+Will span two lines
+```
+
+However, if you are writing in an .md file, the example above would render on one line without a line break. To create a line break in an .md file, you will need to include one of the following:
+
+1. Include two spaces at the end of the first line.
+```
+This example  
+Will span two lines
+```
+
+2. Include an HTML single line break tag at the end of the first line.
+```
+This example<br/>
+Will span two lines
+```
+3. Otherwise, you can leave a blank line between two lines
+```
+This example
+
+Will have a blank line separating both lines
+```
+
 # Quoting text
 You can quote text with a >.
 
